@@ -23,7 +23,7 @@ public class input extends HttpServlet{
 			result = "홀수";
 		}
 		
-		req.RequestDispatcher("model", result);
+		req.setAttribute("model", result);
 		// request영역에 model이란 변수를 만들어서 result 값을 대입한다.
 		RequestDispatcher dispatcher = req.getRequestDispatcher("input_result.jsp");
 		dispatcher.forward(req, resp);
