@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-${sum}, ${pw}  로그인 성공
+1에서 n 까지의 합은 ${sum}
 </body>
 </html>

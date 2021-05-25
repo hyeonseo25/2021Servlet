@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-${sum}, ${pw}  로그인 성공
+	<form method ="post" action="/ServletPrj/oneToN">
+	숫자를 입력하세요:<input type="text" name = "n"><br>
+	
+	<button type="submit">확인</button>
+	</form>
 </body>
 </html>
